@@ -5,8 +5,8 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("👿 Channel", url="https://t.me/fckyoupeople1")],
+        [InlineKeyboardButton("🅲🅷🅰🅽🅽🅴🅻", url="https://t.me/fckyoupeople1")],
     ])
-    welcomed = f"Halo🐣 <b>{message.from_user.first_name}</b>\n 🐈 **Saya Adalah Bot Yang Dapat Mengunduh Lagu Dan Video Dari** [YouTube](https://telegra.ph/file/4341cfadb0abff6f6e60d.jpg)\n😉 **Cukup Ketik /help Untuk Mengetahui Perintahnya**"
+    welcomed = f"**Hai!!**<b>{message.from_user.first_name}</b>\nꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇɴɢᴜɴᴅᴜʜ ʟᴀɢᴜ ᴅᴀɴ ᴠɪᴅᴇᴏ ᴅᴀʀɪ [ʏᴏᴜᴛᴜʙᴇ](https://telegra.ph/file/b9d14184caad443f63d59.mp4), ᴄᴜᴋᴜᴘ ᴋᴇᴛɪᴋ /ʜᴇʟᴘ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴘᴇʀɪɴᴛᴀʜɴʏᴀ."
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
