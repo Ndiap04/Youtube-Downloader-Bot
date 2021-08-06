@@ -2,7 +2,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 
 
 @Client.on_message(Filters.command(["start"]), group=-2)
-  return ctx.replyWithPhoto({ url: 'https://telegra.ph/file/c3f19e89e109e1534b02a.jpg' },
+  return ctx.replyWithPhoto({ url: 'https://telegra.ph/file/c3f19e89e109e1534b02a.jpg' 
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
